@@ -11,6 +11,9 @@ h1 {
   color: white;
 }
 
+.color-background {
+  background-color: #ff4c68;
+}
 .container-fluid {
   padding: 20px 15%;
 }
@@ -35,6 +38,16 @@ h1 {
   font-weight: 400;
   font-size: 1.2rem;
 
+}
+
+/* Features */
+.feature {
+  text-align: center;
+}
+
+.feature i {
+  font-size: 4rem;
+  color: #ef8172;
 }
 
 
