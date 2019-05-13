@@ -1,14 +1,18 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font: "Montserrat";
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-  color: white;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h3 {
@@ -18,11 +22,21 @@ h3 {
   font-size: 1.5rem;
 }
 
+/* Section Globals */
 .color-background {
   background-color: #ff4c68;
+  color: #fff;
 }
+
 .container-fluid {
   padding: 20px 15%;
+  text-align: center;
+}
+
+.round-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 /* Navigation Bar */
@@ -47,10 +61,20 @@ h3 {
 
 }
 
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg)
+}
+
 /* Features */
 .feature {
-  text-align: center;
-  margin-top: 80px;
+  /* text-align: center; */
   padding: 5%;
 }
 
@@ -68,13 +92,8 @@ h3 {
   color: #8f8f8f;
 }
 
-/* Buttons */
-.download-button {
-  margin: 5% 3% 5% 0;
-
-}
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg)
+/* Press Section */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
