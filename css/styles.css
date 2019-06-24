@@ -11,21 +11,17 @@ p {
   color: #8f8f8f;
 }
 
-/* Headings */
-
+/* Header Fonts */
 .big-heading {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
 .section-heading {
-
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
 /* Section Globals */
@@ -39,8 +35,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 5%;
-  text-align: center;
+  padding: 7% 15%;
 }
 
 .round-img {
@@ -53,6 +48,7 @@ p {
 .navbar {
   padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font: "Ubuntu";
@@ -68,20 +64,25 @@ p {
   font: "Montserrat";
   font-weight: 400;
   font-size: 1.2rem;
-
 }
 
 /* Buttons */
 .download-button {
   margin: 5% 3% 5% 0;
-
 }
+
+
+.small-icon {
+  margin: 20px 10px;
+}
+
+/* Title */
 
 .title-image {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right:30%;
+  right: 30%;
 }
 
 @media (max-width:1028px) {
@@ -89,15 +90,13 @@ p {
     position: static;
     transform: rotate(0);
   }
-
 }
 
- .small-icon {
-   margin: 20px 10px;
- }
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
 
 /* Features */
-
 #features {
   position: relative;
 }
@@ -130,20 +129,19 @@ p {
 
 /* Pricing */
 
+#pricing {
+  padding: 100px;
+}
+
 .price-text {
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-#pricing {
-  padding: 100px;
-}
-
 /* Testimonials */
-
 #testimonials {
-  position:relative;
+  position: relative;
 }
 
 .testimonial-text {
