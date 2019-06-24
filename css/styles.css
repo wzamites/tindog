@@ -67,6 +67,7 @@ h3 {
 
 /* Buttons */
 .download-button {
+  margin: 5% 3% 5% 0;
 
 }
 
@@ -86,7 +87,7 @@ h3 {
 }
 
  .small-icon {
-   margin:5% 3% 5% 0;
+   margin: 20px 10px
  }
 
 
