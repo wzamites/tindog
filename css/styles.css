@@ -3,23 +3,29 @@ body {
   text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
+
 }
 
-h2 {
+.section-heading {
+
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.5;
-}
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font: "Montserrat";
-  font-weight: 600;
-  font-size: 1.5rem;
 }
 
 /* Section Globals */
@@ -87,10 +93,8 @@ h3 {
 }
 
  .small-icon {
-   margin: 20px 10px
+   margin: 20px 10px;
  }
-
-
 
 /* Features */
 
@@ -113,14 +117,23 @@ h3 {
   color: #ff4c68;
 }
 
-.feature p {
-  color: #8f8f8f;
+.feature-title {
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 /* Press Section */
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.price-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 #pricing {
@@ -131,4 +144,10 @@ h3 {
 
 #testimonials {
   position:relative;
+}
+
+.testimonial-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
 }
