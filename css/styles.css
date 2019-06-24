@@ -33,7 +33,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 15% 5%;
   text-align: center;
 }
 
@@ -67,7 +67,6 @@ h3 {
 
 /* Buttons */
 .download-button {
-  margin: 5% 3% 5% 0;
 
 }
 
@@ -77,6 +76,20 @@ h3 {
   position: absolute;
   right:30%;
 }
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+ .small-icon {
+   margin:5% 3% 5% 0;
+ }
+
+
 
 /* Features */
 
